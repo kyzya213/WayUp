@@ -1,0 +1,199 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #000;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    line-height: 1.65em;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgba(78,189,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+    padding-top: 86px;
+    padding-bottom: 72px;
+    color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    margin-top: 140px;
+}
+
+.title {
+    width: 500px;
+}
+
+span {
+    font-size: 51px;
+}
+
+.intro {
+    width: 380px;
+    margin: 30px 0 45px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    display: block;
+    width: 222px;
+    padding: 22px;
+    text-align: center;
+    color: #000;
+    background: #ffd429;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #e5bd1d;
+}
+
+.learn {
+    padding-top: 108px;
+    padding-bottom: 123px;
+}
+
+.section-title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 73px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill {
+    width: 289px;
+    text-align: center;
+}
+
+.skill img {
+    margin-bottom: 20px;
+}
+
+.skill-title {
+    font-size: 19px;
+}
+
+.skill-intro {
+    margin-top: 9px;
+}
+
+.animate__animated {
+    opacity: 0;
+}
+
+.mail {
+    padding-top: 104px;
+    padding-bottom: 102px;
+    background: #ecf3f8;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 340px;
+    height: 48px;
+    padding-left: 22px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.form-btn {
+    width: 368px;
+    height: 55px;
+    padding: 0;
+    border: 0;
+}
+
+.footer {
+    padding: 30px 0 30px;
+    background: #164d7a;
+}
+
+.credits {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .offer {
+        width: 100%;
+    }
+    .foto {
+        display: block;
+        width: 641px;
+        margin: 30px auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .skills {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+    .foto {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+    .title, .intro, input {
+        width: 100%;
+    }
+    .form-btn {
+        width: 316px;
+    }
+}
